@@ -186,7 +186,7 @@ while True:
         kelime_frekanslari_metin(dosya_konumu)
     elif secim == "6":
         liste = input("Bir liste girin (örnek: 1,-4,6,91,2,65): ").split(",")
-        liste = [float(eleman) for eleman in liste]  
+        liste = [float(eleman) for eleman in liste]
         sonuc = en_kucuk_deger(liste)
         print(f"Listedeki en küçük değer: {sonuc}")
     elif secim == "7":
@@ -200,7 +200,7 @@ while True:
         sonuc = eb_ortak_bolen(sayi1, sayi2)
         print(f"{sayi1} ve {sayi2} sayılarının en büyük ortak böleni: {sonuc}")
     elif secim == "9":
-        sayi = int(input("Asallığını kontrol etmek istediğiniz sayoyo girin: "))
+        sayi = int(input("Asallığını kontrol etmek istediğiniz sayıyı girin: "))
         sonuc = asal_veya_degil(sayi)
         print(f"{sayi} sayısı asal mı? {sonuc}")
     elif secim == "10":
@@ -211,4 +211,4 @@ while True:
         print("Programdan çıkılıyor.")
         break
     else:
-        print("Geçersiz seçim. Lütfen tekrar deneyin.")
+        print("Geçersiz seçim. Tekrar deneyin.")
