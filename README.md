@@ -1,1 +1,0 @@
-# Kost-python-konsol-devi
